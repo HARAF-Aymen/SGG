@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+h1, h2, h3 {
+  @apply font-semibold;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+a {
+  @apply text-sm font-medium hover:text-gray-200;
+}
